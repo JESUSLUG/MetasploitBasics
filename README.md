@@ -1,46 +1,47 @@
 # MetasploitBasics
+Inicia la interfaz de línea de comandos de Metasploit.
 ```
 msfconsole
 ```
-Inicia la interfaz de línea de comandos de Metasploit.
 
+Busca exploits o módulos en la base de datos de Metasploit.
 ```
 search <exploit/module>
 ```
-Busca exploits o módulos en la base de datos de Metasploit.
 
+Selecciona un exploit o módulo específico para usar.
 ```
 use <exploit/module>
 ```
-Selecciona un exploit o módulo específico para usar.
 
+Configura el valor de una opción específica para el exploit o módulo.
 ```
 set <option> <value>
 ```
-Configura el valor de una opción específica para el exploit o módulo.
 
+Ejecuta el exploit con la configuración actual.
 ```
 exploit
 ```
-Ejecuta el exploit con la configuración actual.
 
+Muestra información sobre el exploit o módulo seleccionado.
 ```
 info
 ```
-Muestra información sobre el exploit o módulo seleccionado.
 
+Muestra y configura las opciones para el exploit o módulo seleccionado.
 ```
 options
 ```
-Muestra y configura las opciones para el exploit o módulo seleccionado.
 
+Muestra las opciones disponibles para el payload seleccionado.
 ```
 show options
 ```
-Muestra las opciones disponibles para el payload seleccionado.
 
+Muestra la ayuda y los comandos disponibles en la consola de Metasploit.
 ```
 help
 ```
-Muestra la ayuda y los comandos disponibles en la consola de Metasploit.
+
 
